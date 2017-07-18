@@ -30,10 +30,10 @@ root {
 
 #float-image {
 position: fixed;
-top: 0;
+top: 100;
 right:0;
-width: 200px;
-height: 80px;
+width: 80px;
+height: 100px;
 background: url(PoweredBy_RoboCore.png) no-repeat;
 display: block;
 }
