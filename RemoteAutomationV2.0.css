@@ -31,7 +31,7 @@ root {
 #float-image {
 position: fixed;
 top: 0;
-right: 0;
+right: 30;
 width: 120px;
 height: 50px;
 background: url(https://sites.google.com/site/hosi3328/url/PoweredBy_RoboCore_small.png) no-repeat;
