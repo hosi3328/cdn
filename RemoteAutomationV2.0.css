@@ -32,8 +32,8 @@ root {
 position: fixed;
 top: 0;
 right:0;
-width: 166px;
-height: 40px;
+width: 200px;
+height: 80px;
 background: url(PoweredBy_RoboCore.png) no-repeat;
 display: block;
 }
