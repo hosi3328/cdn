@@ -30,7 +30,7 @@ root {
 
 #float-image {
 position: fixed;
-top: 100;
+top: 0;
 right:0;
 width: 200px;
 height: 100px;
