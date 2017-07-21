@@ -1,6 +1,6 @@
 /* 
-    Document   : homeV1.0
-    Created on : Jul 12, 2017, 15:40:06 PM
+    Document   : RemoteAutomationV1.0
+    Created on : Jul 17, 2017, 15:40:06 PM
     Author     : Helberth
     Description:
         Purpose of the stylesheet follows.
@@ -24,7 +24,7 @@ root {
         font-family: arial;
 }
 
-#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , #porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , #porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo, #porta10_estado , #porta10_titulo , #porta11_estado , #porta11_titulo , #porta12_estado , #porta12_titulo , #porta13_estado , #porta13_titulo , #porta14_estado , #porta14_titulo , #porta15_estado , #porta15_titulo , #porta16_estado , #porta16_titulo , #porta17_estado , #porta17_titulo , #porta18_estado , #porta18_titulo , {
+#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , #porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , #porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo {
     visibility: hidden;
 }
 
