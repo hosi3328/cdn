@@ -21,76 +21,7 @@ function VerificaEstado(){
     var porta8_titulo = document.getElementById("porta8_titulo").innerHTML;
     
     var porta9_estado = document.getElementById("porta9_estado").innerHTML;
-    var porta9_titulo = document.getElementById("porta9_titulo").innerHTML;  
-    
-    var porta10_estado = document.getElementById("porta10_estado").innerHTML;
-    var porta10_titulo = document.getElementById("porta10_titulo").innerHTML;
-    
-    var porta11_estado = document.getElementById("porta11_estado").innerHTML;
-    var porta11_titulo = document.getElementById("porta11_titulo").innerHTML;
-    
-    var porta12_estado = document.getElementById("porta12_estado").innerHTML;
-    var porta12_titulo = document.getElementById("porta12_titulo").innerHTML;
-
-    var porta13_estado = document.getElementById("porta13_estado").innerHTML;
-    var porta13_titulo = document.getElementById("porta13_titulo").innerHTML;
-    
-    var porta14_estado = document.getElementById("porta14_estado").innerHTML;
-    var porta14_titulo = document.getElementById("porta14_titulo").innerHTML;    
-    
-     var porta15_estado = document.getElementById("porta15_estado").innerHTML;
-    var porta15_titulo = document.getElementById("porta15_titulo").innerHTML;
-    
-    var porta16_estado = document.getElementById("porta16_estado").innerHTML;
-    var porta16_titulo = document.getElementById("porta16_titulo").innerHTML;
-    
-    var porta17_estado = document.getElementById("porta17_estado").innerHTML;
-    var porta17_titulo = document.getElementById("porta17_titulo").innerHTML;
-
-    var porta18_estado = document.getElementById("porta18_estado").innerHTML;
-    var porta18_titulo = document.getElementById("porta18_titulo").innerHTML;
-    
-    var porta19_estado = document.getElementById("porta19_estado").innerHTML;
-    var porta19_titulo = document.getElementById("porta19_titulo").innerHTML;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    var porta9_titulo = document.getElementById("porta9_titulo").innerHTML;
 
     if(porta2_estado === "0"){
         document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
