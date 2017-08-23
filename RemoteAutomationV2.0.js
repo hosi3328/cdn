@@ -29,8 +29,7 @@ function VerificaEstado(){
     var porta11_estado = document.getElementById("porta11_estado").innerHTML;
     var porta11_titulo = document.getElementById("porta11_titulo").innerHTML;
     
-    var porta12_estado = document.getElementById("porta12_estado").innerHTML;
-    var porta12_titulo = document.getElementById("porta12_titulo").innerHTML;
+    
 
     if(porta2_estado === "0"){
         document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
@@ -92,12 +91,7 @@ function VerificaEstado(){
         document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
     }
     
-     if(porta12_estado === "0"){
-        document.getElementById("porta12_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l12' class='botao'>"+porta12_titulo+"</a>";
-    } else {
-        document.getElementById("porta12_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d12' class='botao'>"+porta12_titulo+"</a>";
-    }
-    
+       
     
 
 document.getElementsByTagName("body")[0].innerHTML += "<a href='https://github.com/hosi3328/cdn/blob/master/' id='float-image'></a>";
