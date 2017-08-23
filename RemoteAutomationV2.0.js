@@ -22,6 +22,15 @@ function VerificaEstado(){
     
     var porta9_estado = document.getElementById("porta9_estado").innerHTML;
     var porta9_titulo = document.getElementById("porta9_titulo").innerHTML;
+    
+    var porta10_estado = document.getElementById("porta10_estado").innerHTML;
+    var porta10_titulo = document.getElementById("porta10_titulo").innerHTML;
+    
+    var porta11_estado = document.getElementById("porta11_estado").innerHTML;
+    var porta11_titulo = document.getElementById("porta11_titulo").innerHTML;
+    
+    var porta12_estado = document.getElementById("porta12_estado").innerHTML;
+    var porta12_titulo = document.getElementById("porta12_titulo").innerHTML;
 
     if(porta2_estado === "0"){
         document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
@@ -70,6 +79,26 @@ function VerificaEstado(){
     } else {
         document.getElementById("porta9_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d9' class='botao'>"+porta9_titulo+"</a>";
     }
+    
+     if(porta10_estado === "0"){
+        document.getElementById("porta10_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l10' class='botao'>"+porta10_titulo+"</a>";
+    } else {
+        document.getElementById("porta10_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d10' class='botao'>"+porta10_titulo+"</a>";
+    }
+    
+     if(porta11_estado === "0"){
+        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
+    } else {
+        document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
+    }
+    
+     if(porta12_estado === "0"){
+        document.getElementById("porta12_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l12' class='botao'>"+porta12_titulo+"</a>";
+    } else {
+        document.getElementById("porta12_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d12' class='botao'>"+porta12_titulo+"</a>";
+    }
+    
+    
 
 document.getElementsByTagName("body")[0].innerHTML += "<a href='https://github.com/hosi3328/cdn/blob/master/' id='float-image'></a>";
 
