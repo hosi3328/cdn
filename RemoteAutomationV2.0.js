@@ -78,6 +78,7 @@ function VerificaEstado(){
      
     
        
+       
     
 
 document.getElementsByTagName("body")[0].innerHTML += "<a href='https://github.com/hosi3328/cdn/blob/master/' id='float-image'></a>";
